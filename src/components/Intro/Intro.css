@@ -1,0 +1,97 @@
+.comp {
+    position: relative;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.comp1 {
+    margin: 20px;
+    padding: 100px 0px;
+    width: auto;
+    z-index: 1;
+}
+
+.comp1::before {
+    position: relative;
+    content: "";
+    background-image: url("../../images/congress.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -100px;
+    right: 700px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.05;
+    z-index: 1;
+
+}
+
+
+h2 {
+    width: auto;
+}
+
+.title {
+    background-color: black;
+    padding: 0.4vw;
+    margin: 1vh 0vw;
+    z-index: 1;
+    color: white;
+}
+
+.sign {
+    padding: 20px 0px;
+}
+
+.comp2 {
+    position: relative;
+    flex-shrink: 1;
+    margin-top: -40px;
+    margin-left: -150px;
+    width: auto;
+    z-index: 0;
+
+}
+
+.tricolor {
+    position: relative;
+    margin-top: -450px;
+    margin-left: -225px;
+    z-index: 1;
+
+}
+
+@media (max-width: 1080px) {
+
+    .comp {
+        display: grid;
+        margin-top: 10vh;
+    }
+
+    .comp1 {
+
+        margin-bottom: 20vh;
+    }
+
+    .img {
+        margin-top: -90vh;
+        margin-left: 40vw;
+        width: 50vw;
+        align-items: center;
+    }
+
+    .border {
+        width: 100vw;
+        margin-top: 10vh;
+    }
+
+    .tricolor {
+        margin-left: -26vw;
+    }
+
+
+
+}

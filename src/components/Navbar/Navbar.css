@@ -1,0 +1,63 @@
+.nav-top {
+    position: relative;
+    margin-left: 10%;
+    padding-right: 20%;
+    background-color: black !important;
+    z-index: 3;
+}
+
+.nav {
+    position: relative;
+    margin-left: 10%;
+    padding-right: 20%;
+    background-color: green !important;
+    z-index: 4;
+}
+
+.text {
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px
+}
+
+.fa-brands {
+    background-color: rgb(30, 29, 29);
+    padding: 10px;
+    margin: -6px
+}
+
+#navbarScroll {
+    justify-content: space-between;
+}
+
+.fname {
+    background-color: orange;
+    padding: 2.9vh 3vw;
+    margin-left: -0.9vw;
+
+}
+
+.sname {
+    background-color: green;
+    padding: 2.2vh 2.6vw;
+    margin-left: -0.9vw;
+}
+
+@media (max-width: 1080px) {
+    .nav-top {
+        flex: 1 1 auto;
+        position: relative;
+        z-index: 2;
+        width: auto
+    }
+
+    .fa-brands {
+        padding: 0
+    }
+
+    .nav {
+        position: relative;
+        width: auto
+    }
+
+}
