@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/politic-screen/static/css/main.3bd72f95.css",
+    "main.js": "/politic-screen/static/js/main.59e92011.js",
+    "static/media/tricolor3.png": "/politic-screen/static/media/tricolor3.04e7fff207f904e404a8.png",
+    "static/media/rahul.jpeg": "/politic-screen/static/media/rahul.7bf3bdd0933c9955a53f.jpeg",
+    "static/media/kids.jpg": "/politic-screen/static/media/kids.f18a03f68eca10a83c4b.jpg",
+    "index.html": "/politic-screen/index.html",
+    "main.3bd72f95.css.map": "/politic-screen/static/css/main.3bd72f95.css.map",
+    "main.59e92011.js.map": "/politic-screen/static/js/main.59e92011.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bd72f95.css",
+    "static/js/main.59e92011.js"
+  ]
+}
